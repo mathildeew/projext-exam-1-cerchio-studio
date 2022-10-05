@@ -1,4 +1,5 @@
 ## Cerchio Studio / Project Exam 1
+![cerchio-studio-screenshot](https://user-images.githubusercontent.com/94295012/194151291-4432e049-27dc-404b-a55d-4f9d7fe50398.jpg)
 
 ## Description
 
