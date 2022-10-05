@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cerchio Studio's blog. Follow our work and our life. "
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+
+    <title>Cerchio Studio | Blog</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="index.html">Cerchio Studio</a>
+      <nav>
+        <a class="gactive" href="blog.html">Blog</a>
+        <a class="hover" href="about.html">About</a>
+        <a class="hover" href="contact.html">Contact</a>
+      </nav>
+
+      <div class="menu-button">
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <div class="nav-overlay">
+      <ul>
+        <li><a class="activelink" href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <main class="blog">
+      <section class="blog-content">
+        <h1>Blog</h1>
+
+        <div class="filter">
+          <label for="search">Search</label>
+          <input
+            name="search"
+            type="text"
+            id="search"
+            placeholder="Search..."
+          />
+          <label for="categories">Categories</label>
+          <select name="categories" class="categories" id="categories">
+            <option value="" disabled selected hidden>Categories</option>
+            <option value="All">All</option>
+          </select>
+        </div>
+
+        <div class="blog-grid"></div>
+        <div class="loader"></div>
+        <div class="error-message"></div>
+        <div class="blogposts-nav"></div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="images/cerchio-logo.png" alt="Cerchio Studio logo" />
+      <p>cerchio@studio.com</p>
+      <p>&copy; 2021 Cerchio Studio</p>
+    </footer>
+
+    <script type="module" src="js/blog.js"></script>
+    <script src="js/functions/navigation.js"></script>
+  </body>
+</html>

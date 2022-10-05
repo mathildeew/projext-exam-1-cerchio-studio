@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cerchio Studio | Piazza del Duomo, 56126 Pisa PI, Italia. P: +39 0549 645132. E: cerchio@studio.com"
+    />
+    <link rel="icon" type="image/x-icon" href="images/cerchio-logo.png" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+
+    <title>Cerchio Studio | Contact</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="index.html">Cerchio Studio</a>
+      <nav>
+        <a class="hover" href="blog.html">Blog</a>
+        <a class="hover" href="about.html">About</a>
+        <a class="yactive" href="contact.html">Contact</a>
+      </nav>
+
+      <div class="menu-button">
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <div class="nav-overlay">
+      <ul>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="activelink" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="message-sent" role="region" aria-label="Message sent">
+      <img src="images/cerchio-logo.png" alt="Cerchio logo" />
+      <p>Thank you. We will be in touch with you shortly.</p>
+      <a href="index.html">Home</a>
+    </div>
+
+    <main class="contact">
+      <div class="sizing">
+        <h1>Contact</h1>
+        <div class="contact-info">
+          <div class="contact-info1">
+            <p>Cerchio Studio</p>
+            <p>Piazza del Duomo</p>
+            <p>56126 Pisa PI</p>
+            <p>Italia</p>
+          </div>
+          <div class="contact-info2">
+            <p>+39 0549 645132</p>
+            <p>cerchio@studio.com</p>
+          </div>
+        </div>
+
+        <div class="form-container">
+          <form
+            action="https://projects.mathildeelinor.no/wp-json/contact-form-7/v1/contact-forms/123/feedback"
+            method="POST"
+            id="contact-form"
+          >
+            <div>
+              <label for="name"> Name <em>*</em></label>
+              <div class="form-error" id="nameError">
+                Please enter your name
+              </div>
+              <input name="your-name" id="name" />
+            </div>
+
+            <div>
+              <label for="email"> Email <em>*</em></label>
+              <div class="form-error" id="emailError">
+                Please enter a valid email address
+              </div>
+              <input name="email" id="email" />
+            </div>
+
+            <div>
+              <label for="subject"> Subject <em>*</em></label>
+              <div class="form-error" id="subject-error">
+                Please enter a subject with 15 characters
+              </div>
+              <input name="subject" id="subject" />
+            </div>
+
+            <div>
+              <label for="message"> Message <em>*</em></label>
+              <div class="form-error" id="message-error">
+                Please enter a message with at least 25 characters
+              </div>
+              <textarea name="message" id="message"></textarea>
+            </div>
+
+            <button class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <img src="images/cerchio-logo.png" alt="Cerchio Studio logo" />
+      <p>cerchio@studio.com</p>
+      <p>&copy; 2021 Cerchio Studio</p>
+    </footer>
+
+    <script src="js/functions/navigation.js"></script>
+    <script type="module" src="js/contact.js"></script>
+  </body>
+</html>
