@@ -14,13 +14,6 @@
 
 /* LAYOUT
 ------------------------- */
-.test {
-  background-color: var(--almost-white);
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 * {
   margin: 0;
@@ -244,7 +237,6 @@ footer img {
   flex-direction: column;
   padding: 0 5%;
   margin-bottom: 50px;
-  height: 800px;
 }
 
 .latest-posts h1 {
