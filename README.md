@@ -13,5 +13,5 @@ This project is assigned by Cerchio Studio, a fictional ceramic studio. The fina
 - Adobe XD
 
 ## Contact
-- [hei@mathildeelinor.no] (mailto:hei@mathildeelinor.no)
+- [hei@mathildeelinor.no](mailto:hei@mathildeelinor.no)
 - [Visit my portfolio](https://www.mathildeelinor.no)
