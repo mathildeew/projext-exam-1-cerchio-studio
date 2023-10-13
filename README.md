@@ -29,8 +29,8 @@ The goal of this assignment was to take the skills learned over the first year o
 
 Cerchio, meaning circle in italian, has its inspired by a pottery turntable. The design has a soft pastel color palette with, easy to read fonts and supplementary images with a focus on details.
 
-[Desktop prototype here](https://xd.adobe.com/view/c5f31b75-edbb-406a-850e-9c5659354600-90a0/)
-[Mobile prototype here](https://xd.adobe.com/view/db51efda-3bcb-4637-8a12-41bf77d57710-8e02/)
+- [Desktop prototype here](https://xd.adobe.com/view/c5f31b75-edbb-406a-850e-9c5659354600-90a0/)
+- [Mobile prototype here](https://xd.adobe.com/view/db51efda-3bcb-4637-8a12-41bf77d57710-8e02/)
 
 ## Contact
 - [hei@mathildeelinor.no](mailto:hei@mathildeelinor.no)
