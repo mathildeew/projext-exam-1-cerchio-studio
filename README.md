@@ -1,6 +1,6 @@
-![cerchio-studio-screenshot](https://user-images.githubusercontent.com/94295012/194151291-4432e049-27dc-404b-a55d-4f9d7fe50398.jpg)
-
 # Project Exam 1 - Cerchio Studio
+
+![cerchio-studio-screenshot](https://user-images.githubusercontent.com/94295012/194151291-4432e049-27dc-404b-a55d-4f9d7fe50398.jpg)
 
 The final project of the first year was a self-selected blog site, assigned to a fictional ceramic studio called Cerchio. The project is a summary of all skills learned the first year with an emphasis on design principles, web development and content management system. The blog features a search function, category filtering, a blogpost carousel and all the content stored as a headless CMS.
 Hotjar was installed to give insight of user behaviour.
